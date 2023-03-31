@@ -1,0 +1,70 @@
+@import "src/assets/scss/custom-variables";
+
+.sidebar-main {
+  background: $white-color;
+  height: 100vh;
+  overflow: auto;
+  width: 400px;
+  padding: 75px;
+  z-index: 9;
+  left: -1000%;
+  top: 0;
+  transition: 0.5s ease all;
+  .close-btn{
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+  }
+  .nav-link-sidebar {
+    margin-bottom: 45px;
+
+    li {
+      a {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.87;
+        letter-spacing: 0.51px;
+        display: inline-block;
+        padding: 2px 0;
+        color: $primary-color;
+
+        &.active, &:hover {
+          color: $orange-color;
+        }
+      }
+    }
+  }
+
+  h6 {
+  font-size: 18px;
+    font-weight: 300;
+    line-height: 1.87;
+    letter-spacing: 0.31px;
+    color: #0f3362;
+    margin-bottom: 10px;
+  }
+
+  .social-link {
+    li {
+      margin-right: 20px;
+      a {
+        display: inline-block;
+          img{
+            height: 35px;
+          }
+      }
+    }
+  }
+  &.show-sidebar{
+    left: 0;
+  }
+}

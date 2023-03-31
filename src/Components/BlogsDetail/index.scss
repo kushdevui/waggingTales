@@ -1,0 +1,215 @@
+@import "src/assets/scss/custom-variables";
+
+.blogs-banner-fluid-detail {
+  height: 664px;
+  overflow-x: hidden;
+ // background: url('../../assets/images/blogs/blogs.png') no-repeat center;
+  background-color: #041f48;
+  height: 400px;
+  padding: 0 15px 15px;
+  background-size: cover;
+  position: relative;
+
+  h1{
+    font-size: 50px;
+    color:white;
+    padding: 20px 20px 0px 20px;
+    font-weight: 900;
+
+  }
+  p{
+    padding: 0px 20px 20px 20px;
+    font-size: 16px;
+    color: white;
+  }
+ 
+  .overlay{
+    position: absolute;
+    width: 100%;
+    background: #041f48;
+    height: 100%;
+    left: 0px;
+    opacity: 0.7;
+  }
+  
+ 
+  .upcoming-all-trips {
+    h6 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 2.5;
+      letter-spacing: 0.9px;
+      text-transform: uppercase;
+      color: $white-color;
+    }
+  }
+}
+
+// .upcoming-trips-fluid {
+//   padding: 5% 0 60px;
+
+  .blog-slider-heading{
+    h5{
+      font-size: 42px;
+      color: #0f3362;
+      text-align: left;
+      font-weight: 900;
+      margin: 60px 0px 40px 0px;
+    }
+    
+  }
+
+//   // .upcoming-trip-img-all {
+//   //   position: absolute;
+//   //   top: -60px;
+//   //   left: 0;
+//   //   right: 0;
+//   //   width: 100%;
+//   //   overflow-x: hidden;
+
+//   //   ul {
+//   //     display: flex;
+//   //     align-items: center;
+
+//   //     li {
+//   //       background: $orange-color;
+//   //       height: 125px;
+//   //       border-radius: 100px;
+//   //       overflow: hidden;
+//   //       position: relative;
+
+//   //       img {
+//   //         height: 100%;
+//   //         width: 100%;
+//   //         object-fit: cover;
+//   //       }
+
+//   //       &.card-1 {
+//   //         width: 25%;
+//   //         left: -55px;
+//   //       }
+
+//   //       &.card-2 {
+//   //         width: 125px;
+//   //         height: 125px;
+//   //         left: -45px;
+//   //       }
+
+//   //       &.card-3 {
+//   //         width: 33%;
+//   //         left: -30px;
+//   //       }
+
+//   //       &.card-4 {
+//   //         width: 19%;
+//   //         left: -15px;
+//   //       }
+
+//   //       &.card-5 {
+//   //         width: 125px;
+//   //       }
+
+//   //       &.card-6 {
+//   //         width: 10%;
+//   //         position: absolute;
+//   //         right: -7%;
+//   //       }
+//   //     }
+//   //   }
+//   // }
+
+//   .upcoming-list-card {
+   
+//     .card-upcoming {
+//       border-radius: 30px;
+//       background-color: #d1ebf3;
+//       padding: 15px;
+//       margin: 0 0 30px;
+
+//       .upcoming-card-img {
+//         padding: 0;
+
+//         img {
+//           border-radius: 18px;
+//           width: 100%;
+//           height: 322px;
+//         }
+//       }
+
+//       .trips-card-details {
+//         padding: 30px 15px 15px;
+
+//         .trip-location-tag {
+//           border-radius: 5px;
+//           background-color: $primary-color;
+//           font-size: 15px;
+//           letter-spacing: 1.8px;
+//           color: $white-color;
+//           position: absolute;
+//           top: -15px;
+//           left: 15px;
+//           padding: 1px 15px;
+//         }
+
+//         h6 {
+//           font-size: 16px;
+//           font-weight: bold;
+//           color: $primary-color;
+//         }
+
+//         ul {
+//           padding: 10px 0 20px;
+
+//           li {
+//             font-size: 12px;
+//             letter-spacing: 0.46px;
+//             color: $primary-color;
+//             width: 28.33%;
+
+//             img {
+//               height: 18px;
+//               margin-bottom: 5px;
+//             }
+//           }
+//         }
+
+//         h5 {
+//           font-size: 24px;
+//           font-weight: bold;
+//           color: $primary-color;
+//           margin-bottom: 0;
+
+//           sub {
+//             font-size: 15px;
+//             font-weight: normal;
+//             bottom: 0;
+//             letter-spacing: 0.46px;
+//           }
+//         }
+
+//         .go-details-btn {
+//           width: 50px;
+//           height: 50px;
+//           border-radius: 50%;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           color: $white-color;
+//           font-size: 16px;
+//           background: $orange-color;
+//           border: 0;
+//           position: absolute;
+//           bottom: 0;
+//           right: 0;
+//           box-shadow: 9px 12px 29px 0 rgba(234, 108, 64, 0.31);
+//         }
+//       }
+//     }
+//     .sub-title{
+//       color: #000
+//     }
+//   }
+// }

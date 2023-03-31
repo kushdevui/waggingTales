@@ -1,0 +1,140 @@
+@import "src/assets/scss/custom-variables";
+
+.customize-trip-fluid {
+  background: url('../../assets/images/customize-trips/customize-trips-bg1.png') no-repeat center;
+  background-size: cover;
+  height: 1000px;
+
+  .customize-trip-row {
+    padding: 3% 0 30px; //initially 10%
+    h5 {
+      font-size: 80px;
+      font-weight: 900;
+      letter-spacing: 1.02px;
+      line-height: 0.94;
+      color: $white-color;
+      margin-bottom: 60px;
+      span{
+        color: $orange-color;
+      }
+    }
+    .customize-trip-description{
+      color: $white-color;
+      font-size: 16px;
+      // line-height: 1.95;
+    }
+    .form-card {
+      border-radius: 15px;
+      box-shadow: 80.8px 158.6px 180px 0 rgba(35, 120, 147, 0.18);
+      background: $white-color;
+      padding: 15px;
+  
+      .ant-form {
+        .ant-form-item {
+          margin-bottom: 12px;
+  
+          .ant-form-item-label {
+            padding-bottom: 0;
+  
+            label {
+              text-transform: uppercase;
+              font-size: 12px;
+              color: $primary-color;
+              letter-spacing: 0.5px;
+            }
+          }
+  
+          .ant-form-item-control {
+            .ant-input, .ant-picker, .ant-input-number {
+              border-radius: 5px;
+              height: 38px;
+              width: 100%;
+              background: #e4f4f9;
+              border-color: #e4f4f9;
+              letter-spacing: 0.63px;
+              font-size: 12px;
+              font-weight: normal;
+              &::placeholder{
+                color: rgba(15, 51, 98, 0.2);
+              }
+  
+              &.textArea {
+                height: 100px;
+              }
+            }
+          }
+  
+          .ant-btn {
+            width: 100%;
+            height: 38px;
+            background: $orange-color;
+            border-color: $orange-color;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-react-multi-carousel-item: 0.5px;
+            font-weight: 600;
+            font-size: 13px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+    
+  }
+
+  .customize-trip-card {
+    border-radius: 15px;
+    box-shadow: 80.8px 158.6px 180px 0 rgba(35, 120, 147, 0.18);
+    background: $white-color;
+    padding: 15px;
+
+    .ant-form {
+      .ant-form-item {
+        margin-bottom: 12px;
+
+        .ant-form-item-label {
+          padding-bottom: 0;
+
+          label {
+            text-transform: uppercase;
+            font-size: 12px;
+            color: $primary-color;
+            letter-spacing: 0.5px;
+          }
+        }
+
+        .ant-form-item-control {
+          .ant-input, .ant-picker, .ant-input-number {
+            width: 100%;
+            border-radius: 5px;
+            height: 38px;
+            background: #e4f4f9;
+            border-color: #e4f4f9;
+            letter-spacing: 0.63px;
+            font-size: 12px;
+            font-weight: normal;
+            &::placeholder{
+              color: #c6d3e6;;
+            }
+            &.textArea {
+              height: 100px;
+            }
+          }
+        }
+
+        .ant-btn {
+          width: 100%;
+          height: 38px;
+          background: $orange-color;
+          border-color: $orange-color;
+          border-radius: 5px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          font-weight: 600;
+          font-size: 13px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

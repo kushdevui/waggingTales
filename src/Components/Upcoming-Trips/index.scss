@@ -1,0 +1,324 @@
+@import "src/assets/scss/custom-variables";
+.upcoming-form-select{
+  .ant-input-group-addon {
+   
+    .anticon {
+      font-size: 11px;
+      color: #fff !important;
+    }
+    &:last-child {
+      .anticon {
+        border-left: unset;
+        right: 0;
+      }
+    }
+    .ant-btn {
+      border-radius: 10px !important;
+    }
+  }
+  .ant-select-auto-complete{
+    color: rgba(0,0,0,0.85);
+  }
+}
+.upcoming-trips-banner-fluid {
+  height: 780px;
+  overflow-x: hidden;
+  background: url('../../assets/images/upcming-trips/upcoming-trips-bg-pettrn.png') no-repeat center;
+  padding: 0 15px 15px;
+  background-size: cover;
+  position: relative;
+
+  
+
+
+  &:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: url('../../assets/images/upcming-trips/upcoming-trips-illistruate.png') no-repeat center;
+    background-size: cover;
+  }
+
+  .upcoming-trips-slider-row {
+
+    .ant-carousel {
+      .slick-list {
+        .slick-track {
+          .slick-slide {
+            h3 {
+              color: $orange-color;
+              font-size: 80px;
+              font-weight: 800;
+              line-height: 1;
+              letter-spacing: 1.02px;
+
+              span {
+                color: $white-color;
+              }
+            }
+
+            p {
+              font-size: 18px;
+              font-weight: normal;
+              color: $white-color;
+            }
+
+            img {
+              border-radius: 50%;
+              width: 500px;
+              height: 500px;
+            }
+          }
+        }
+      }
+
+      .slick-dots {
+        left: -4%;
+        bottom: auto;
+        top: 50%;
+        right: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        transform: rotate(90deg);
+        li{
+          &.slick-active{
+            width: 34px;
+          }
+          button{
+            width: 70% !important;
+          }
+        }
+      }
+    }
+
+    .small-carousel-img-div {
+      position: absolute;
+      right: -15%;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      width: 23.5%;
+
+      ul {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        li {
+          img {
+            width: 67px;
+            height: 67px;
+            border-radius: 50%;
+          }
+
+          &.list-inline-item:not(:last-child) {
+            margin-right: 8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .upcoming-all-trips {
+    margin-top: 85px;
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h6 {
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 2.5;
+      text-transform: uppercase;
+      color: $white-color;
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+
+.upcoming-trips-fluid {
+  padding: 60px 0px;
+  // padding: 10% 0px 10px 60px;
+
+  .upcoming-trip-img-all {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow-x: hidden;
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+        background: $orange-color;
+        height: 100px;
+        border-radius: 100px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &.card-1 {
+          width: 25%;
+          left: -55px;
+        }
+
+        &.card-2 {
+          width: 100px;
+          height: 100px;
+          left: -45px;
+        }
+
+        &.card-3 {
+          width: 50%;
+          left: -30px;
+        }
+
+        &.card-4 {
+          width: 19%;
+          left: -15px;
+        }
+
+        &.card-5 {
+          width: 100px;
+        }
+
+        &.card-6 {
+          width: 10%;
+          position: absolute;
+          right: -7%;
+        }
+      }
+    }
+  }
+
+  .upcoming-list-card {
+    .list-item {
+      padding: 0px 20px;
+    }
+
+    .card-upcoming {
+      border-radius: 25px;
+      background-color: #d1ebf3;
+      padding: 10px;
+      margin: 0 0 30px;
+      position: relative;
+
+      .upcoming-card-img {
+        padding: 0;
+
+        img {
+          border-radius: 18px;
+          width: 100%;
+          height: 300px;
+        }
+      }
+
+      .trips-card-details {
+        padding: 20px 15px 15px 15px;
+
+        .trip-location-tag {
+          border-radius: 5px;
+          background-color: $primary-color;
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 1.8px;
+          color: $white-color;
+          position: absolute;
+          top: -13px;
+          left: 27px;
+          padding: 1px 15px;
+        }
+
+        h6 {
+          font-size: 16px;
+          font-weight: bold;
+          min-height: 70px;
+          max-height: 70px;
+          overflow: hidden;
+          color: $primary-color;
+        }
+
+        ul {
+          padding: 0px 0 0px;
+
+          li {
+            font-size: 12px;
+            letter-spacing: 0.46px;
+            color: $primary-color;
+            width: 20%;
+
+            img {
+              height: 14px;
+              margin-bottom: 5px;
+            }
+          }
+        }
+
+        h5 {
+          font-size: 18px;
+          font-weight: bold;
+          color: $primary-color;
+          margin-bottom: 0;
+
+          sub {
+            font-size: 15px;
+            font-weight: normal;
+            bottom: 0;
+            letter-spacing: 0.46px;
+          }
+        }
+
+        .go-details-btn {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: $white-color;
+          font-size: 16px;
+          background: $orange-color;
+          border: 0;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          box-shadow: 9px 12px 29px 0 rgba(234, 108, 64, 0.31);
+        }
+      }
+
+      .tag {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        height: 35px;
+        padding: 11px 19px 12px 22px;
+        border-radius: 10px;
+        background-color: #0f3362;
+        font-size: 17px;
+        line-height: 0.88;
+        letter-spacing: 0.17px;
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+}
